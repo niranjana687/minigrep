@@ -18,11 +18,7 @@ cargo build --release
 
 Example - `./target/release/minigrep -i nemo find-nemo-the-movie.txt`
 
-### Allowed Options
-```
-i - Case-insensitive.
-w - Exact match.
-```
+
 
 ## Documentation
 ```sh
@@ -39,8 +35,4 @@ This is not a drop in replacement for the good old grep-like commands. This is
 written for the sake of learning Rust-lang.
 
 
-## What is differently done in `minigrep`?
-- Case-insensitive search can be done by passing an option.
-- Ability to do exact-match search.
-- The query is highlighted in the output.
 
